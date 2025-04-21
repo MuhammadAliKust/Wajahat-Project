@@ -40,12 +40,72 @@ class MyApp extends StatelessWidget {
             ),
           ],
         ),
-        body: Center(
-            child: Text(
-          "First Screen",
-          style: TextStyle(
-              fontSize: 30, fontWeight: FontWeight.bold, color: Colors.yellow),
-        )),
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              Text(
+                "First Text",
+                style: TextStyle(fontSize: 30),
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              Text(
+                "Second Text",
+                style: TextStyle(fontSize: 30),
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              Text(
+                "Third Text",
+                style: TextStyle(fontSize: 30),
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              Text(
+                "Third Text",
+                style: TextStyle(fontSize: 30),
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              Text(
+                "Third Text",
+                style: TextStyle(fontSize: 30),
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              Text(
+                "Third Text",
+                style: TextStyle(fontSize: 30),
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              Text(
+                "Third Text",
+                style: TextStyle(fontSize: 30),
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              Text(
+                "Third Text",
+                style: TextStyle(fontSize: 30),
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              Text(
+                "Third Text",
+                style: TextStyle(fontSize: 30),
+              ),
+            ],
+          ),
+        ),
         floatingActionButton: FloatingActionButton(
           backgroundColor: Colors.blue,
           onPressed: () {},
