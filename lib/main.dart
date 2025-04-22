@@ -40,71 +40,30 @@ class MyApp extends StatelessWidget {
             ),
           ],
         ),
-        body: SingleChildScrollView(
-          child: Column(
-            children: [
-              Text(
-                "First Text",
-                style: TextStyle(fontSize: 30),
-              ),
-              SizedBox(
-                height: 50,
-              ),
-              Text(
-                "Second Text",
-                style: TextStyle(fontSize: 30),
-              ),
-              SizedBox(
-                height: 50,
-              ),
-              Text(
-                "Third Text",
-                style: TextStyle(fontSize: 30),
-              ),
-              SizedBox(
-                height: 50,
-              ),
-              Text(
-                "Third Text",
-                style: TextStyle(fontSize: 30),
-              ),
-              SizedBox(
-                height: 50,
-              ),
-              Text(
-                "Third Text",
-                style: TextStyle(fontSize: 30),
-              ),
-              SizedBox(
-                height: 50,
-              ),
-              Text(
-                "Third Text",
-                style: TextStyle(fontSize: 30),
-              ),
-              SizedBox(
-                height: 50,
-              ),
-              Text(
-                "Third Text",
-                style: TextStyle(fontSize: 30),
-              ),
-              SizedBox(
-                height: 50,
-              ),
-              Text(
-                "Third Text",
-                style: TextStyle(fontSize: 30),
-              ),
-              SizedBox(
-                height: 50,
-              ),
-              Text(
-                "Third Text",
-                style: TextStyle(fontSize: 30),
-              ),
-            ],
-          ),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            Text(
+              "First Text",
+              style: TextStyle(fontSize: 30),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              "Second Text",
+              style: TextStyle(fontSize: 20),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Icon(Icons.add),
+                Icon(Icons.add),
+                Icon(Icons.add),
+                Icon(Icons.add),
+              ],
+            )
+          ],
         ),
         floatingActionButton: FloatingActionButton(
           backgroundColor: Colors.blue,
