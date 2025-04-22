@@ -57,10 +57,46 @@ class MyApp extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                Icon(Icons.add),
-                Icon(Icons.add),
-                Icon(Icons.add),
-                Icon(Icons.add),
+                Icon(Icons.close),
+                Column(
+                  children: [
+                    Icon(Icons.close),
+                    Icon(Icons.close),
+                    Icon(Icons.close),
+                  ],
+                ),
+                Column(
+                  children: [
+                    Icon(Icons.close),
+                    Row(
+                      children: [
+                        Icon(Icons.close),
+                        Icon(Icons.close),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Icon(Icons.close),
+                        Icon(Icons.close),
+                        Icon(Icons.close),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Icon(Icons.close),
+                        Icon(Icons.close),
+                      ],
+                    ),
+                    Icon(Icons.close),
+                  ],
+                ),
+                Column(
+                  children: [
+                    Icon(Icons.close),
+                    Icon(Icons.close),
+                  ],
+                ),
+                Icon(Icons.close),
               ],
             )
           ],
