@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wajahat/asset_image.dart';
 
 import 'network_image.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: NetworkImageDemo(),
+      home: AssetImageDemo(),
       // home: Scaffold(
       //   backgroundColor: Colors.green,
       //   appBar: AppBar(
