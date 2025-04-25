@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wajahat/asset_image.dart';
+import 'package:wajahat/login.dart';
 
 import 'network_image.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AssetImageDemo(),
+      home: LoginView(),
       // home: Scaffold(
       //   backgroundColor: Colors.green,
       //   appBar: AppBar(
